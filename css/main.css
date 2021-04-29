@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html, h1, h2, h3, h4, h5, h6, a{
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior: smooth;	
+}
+body {
+	background: rgba(244, 244, 244, 0.79);
+}
+.navbar{
+	background: #2d2d2d;
+}
+.navbar-brand img{
+	height: 35px;
+}	
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}	
+.nav-link{
+	margin-left: 1em !important;
+}	
+.nav-link:hover{
+	color: #fff;
+	background-color: #346270;
+	border-radius: 5px;
+}	
+.navbar-collapse{
+	justify-content: center;
+}	
+.navbar-toggler{
+	background: #fff !important;
+}
+hr{
+	border-width: 6px;
+	border-radius: 3px;
+}
+.about{
+	margin-top: 5px;
+	padding: 3em 0;
+}
+.about h1{
+	color: #f4a460;
+}
+.card-img img{
+	width: 100%;
+	border-radius: 5px;
+}
+.card{
+	text-align: center;
+	background-color: #d3d3d3;
+	margin-top: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px #ccc;
+	min-height: 590px;
+}
+.rate{
+	font-weight: bold;
+}
+.directory h1{
+	color: #f4a460;
+}
+.btn{
+	background-color: #808080;
+	color: #fff;
+	float: right;
+	margin-right: 20px;
+}
+.contact{
+	margin-top: 70px;
+}
+.contact-form{
+	margin-top: 70px;
+}
+.contact-form img{
+	border-radius: 5px;
+	border: solid 1px #808080;
+}
+.btn-request{
+	margin-right: 0;
+}
+.deliver{
+	margin-top: 70px;
+}
+.deliver-description{
+	background: url(../img/deliver.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+.card-description{
+	min-height: 570px;
+}
+form{
+	margin-top: 10px;
+}
+.carousel{
+	height: 80vh;
+	background:;
+}
+.carousel-caption h4, .carousel-caption p{
+	font-style: italic;
+	font-weight: bold;
+}
+.carousel-caption h4{
+	font-size: 35px;
+	color: #f4a460;
+}
+.carousel-caption p{
+	color: #000;
+}
+.carousel-caption{
+	margin-bottom: 10px;
+}
+.carousel-inner{
+	background: rgba(244, 244, 244, 0.79);
+	height: 80vh;
+}
+
+.carousel img{
+	height: 80vh;
+	justify-content: center;
+}
+.carousel ol
+{
+	margin-bottom: 0px;
+}
+.carousel-indicators li{
+    background-color: #000;
+}
+.carousel-indicators .active{
+    background-color: red;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
